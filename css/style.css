@@ -24,10 +24,17 @@ a {
     color: white;
 }
 
+a:hover {
+    text-decoration: none;
+    color: #a7e3e0;
+}
+
 .logoImg img {
     border: 2px solid #274354;
     border-radius: 4px;
 }
+
+
 /* nav {
     border: 1px solid red;
 } */
@@ -38,6 +45,12 @@ a {
 /* header h1 {
     font-style: italic;
 } */
+
+.topNavBarLi:hover {
+    border: 1px solid white;
+    border-radius: 4px;
+    padding: 5px;
+}
 
 header img {
     height: 50px;
@@ -99,7 +112,6 @@ header img {
 .projectDiv, .certDiv {
     height: 250px;
     margin-top: 25px;
-    border: 1px solid red;
 }
 
 .projectDiv img {
@@ -109,8 +121,10 @@ header img {
     border-radius: 2px;
 }
 
-.detroitDiv img {
-    padding: 0 8px;
+.projectImgLink:hover {
+    background: #4c7878;
+    border-radius: 4px;
+    padding: 5px;
 }
 
 /* .certDiv img {
@@ -152,6 +166,21 @@ footer {
 .footPreviewImg {
     height: auto;
     width: 100%;
+}
+
+.projectImgLink:hover {
+    border: 1px solid #a7e3e0;
+}
+
+.latestProjectViewLink {
+    text-align: center;
+    padding: 5px;
+}
+
+.latestProjectViewLink:hover {
+    border: 1px solid white;
+    border-radius: 4px;
+    margin: 2px 40px;
 }
 
 .skillWrap {
@@ -196,12 +225,16 @@ footer {
 
     .skillWrap p {
         text-align: center;
-        line-height: 10px;
+        line-height: 13px;
     }
 }
 
 .colophon, header {
     background: #647d7c;
+}
+
+.socialLinksNav li {
+    margin-left: 10px;
 }
 /* end footer */
 

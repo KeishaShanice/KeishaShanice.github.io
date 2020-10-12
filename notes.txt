@@ -22,3 +22,16 @@ Bootstrap
 #6d776a
 #c4c9d0
 #274354 */
+
+
+Logo Color Palette:
+#a7e3e0
+#0f1a1a
+#6e8c8b
+#8bd8d2
+#55746c
+#99b7b6
+#84aca4
+#4c7878
+#9ec4bc
+#74c4bc
