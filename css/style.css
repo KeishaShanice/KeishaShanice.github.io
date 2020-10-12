@@ -2,22 +2,24 @@
     box-sizing: border-box;
 }
 
-
 body {
-    background-image: url(https://i.ibb.co/WxtbK12/Background.png) ; 
+    background-image: url(https://i.ibb.co/WxtbK12/Background.png); 
     background-size: cover;
     background-attachment: fixed;
     background-color: transparent;
     position: relative;
     min-height: 100vh;
-    /* min-width: 100%; */
-    /* opacity: 0.9; */
+    font-family: 'Josefin Slab', serif;
+    font-size: 18px;
 }
+
 
 .mainWrap {
     background: whitesmoke;
     opacity: 0.8;
-    height: 93vh;
+    width: 100vw;
+    height: 100%;
+    padding-bottom: 120px;
 }
 
 a {
@@ -29,22 +31,29 @@ a:hover {
     color: #a7e3e0;
 }
 
+h1 {
+    font-family: 'Amatic SC', cursive;
+    font-size: 50px;
+}
+
+h2 {
+    font-family: 'Amatic SC', cursive;
+    font-size: 36px;
+}
+
+h1:hover {
+    color: #74c4bc;
+}
+
+h2:hover {
+    color: #74c4bc;
+}
+
+/* header */
 .logoImg img {
     border: 2px solid #274354;
     border-radius: 4px;
 }
-
-
-/* nav {
-    border: 1px solid red;
-} */
-
-/* header */
-
-
-/* header h1 {
-    font-style: italic;
-} */
 
 .topNavBarLi:hover {
     border: 1px solid white;
@@ -127,13 +136,7 @@ header img {
     padding: 5px;
 }
 
-/* .certDiv img {
-    height: 250px;
-    width: 100%;
-    border: 3px solid grey;
-} */
-
-.portfolio h1, .certifications h1 {
+.portfolio h1 {
     text-align: center;
     margin-top: 25px;
 }
@@ -146,17 +149,10 @@ header img {
 
 footer {
     width: 100vw;
-    position: absolute;
-    bottom: 0;
+    /* position:fixed;
+    bottom: 0; */
     background:#627d73;
 }
-
-/* @media (max-width: 551px) {
-    footer {
-        width: 100vw;
-        height: 70%;
-    }
-} */
 
 .footerBox {
     border: 3px solid #274354;
@@ -166,6 +162,10 @@ footer {
 .footPreviewImg {
     height: auto;
     width: 100%;
+}
+
+.footerAbout, .footerTechSkills, .footerProject {
+    text-align: center;
 }
 
 .projectImgLink:hover {
@@ -184,6 +184,7 @@ footer {
 }
 
 .skillWrap {
+    margin-bottom: 5px;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
@@ -227,6 +228,10 @@ footer {
         text-align: center;
         line-height: 13px;
     }
+}
+
+.skillAlign:hover {
+    font-size: 22px;
 }
 
 .colophon, header {
